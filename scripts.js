@@ -8,7 +8,6 @@
         $('.loader-mask').delay(350).fadeOut('slow');
 
         $(window).trigger("resize");
-        initMasonry();
 
     });
 
@@ -88,8 +87,8 @@
         });
 
         // Smooth Scroll Navigation
-        $('.local-scroll').localScroll({offset: {top: -60},duration: 1500,easing:'easeInOutExpo'});
-        $('.local-scroll-no-offset').localScroll({offset: {top: 0},duration: 1500,easing:'easeInOutExpo'});
+        // $('.local-scroll').localScroll({offset: {top: -60},duration: 1500,easing:'easeInOutExpo'});
+        // $('.local-scroll-no-offset').localScroll({offset: {top: 0},duration: 1500,easing:'easeInOutExpo'});
     }
 
 
