@@ -1,3 +1,10 @@
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
 /*-------------------------------------------------------*/
 
 /* General
@@ -636,3 +643,43 @@ h1.heading {
   margin-bottom: 20px;
   padding: 15px;
 }
+@media (max-width: 1200px) {
+  .navbar-nav > li > a {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-wrap {
+    background-attachment: scroll;
+  }
+
+  .section-wrap {
+    padding: 90px 0;
+  }
+
+  .service-item-box {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-wrap {
+    padding: 80px 0;
+  }
+
+  h1,
+  h1.heading {
+    font-size: 28px;
+  }
+
+  h1.heading {
+    margin: 20px auto 30px;
+  }
+
+  .logo {
+    margin: 20px 0;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
