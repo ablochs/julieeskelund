@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta name="robots" content="noindex">
+</head>
+
+<body>
+</body>
+<script type="text/javascript">
+var four = prompt("Hvad er to plus to?");
+console.log(four);
+if (four === '4') {
+  console.log('setting cookie');
+  document.cookie = "excludeFromGA=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  document.body.innerHTML = 'Din trafik fra denne enhed kommer ikke med i Google Analytis nu. Husk at besøge denne side fra alle enheder, som ikke skal med.';
+}
+</script>
+
+</html>
