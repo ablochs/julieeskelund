@@ -1,0 +1,23 @@
+{
+  "name": "julieeskelund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "minify --output bundle.css css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablochs/julieeskelund.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ablochs/julieeskelund/issues"
+  },
+  "homepage": "https://github.com/ablochs/julieeskelund#readme",
+  "devDependencies": {
+    "minifier": "^0.8.1"
+  }
+}
