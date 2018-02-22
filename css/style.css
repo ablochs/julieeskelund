@@ -333,6 +333,10 @@ h1.heading {
     padding: 10px 0;
     line-height: 30px;
   }
+
+  h1.heading {
+    font-size: 24px;
+  }
 }
 
 /* Navigation Toggle
